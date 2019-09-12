@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Trigid</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700|Muli:300,400" rel="stylesheet">
+<link rel="stylesheet" href="stylesheets/css/card.css">
+<link rel="stylesheet" href="stylesheets/css/form.css">
+<link rel="stylesheet" href="stylesheets/fonts/icomoon/style.css">
+<link rel="stylesheet" href="stylesheets/css/bootstrap.min.css">
+<link rel="stylesheet" href="stylesheets/css/jquery-ui.css">
+<link rel="stylesheet" href="stylesheets/css/owl.carousel.min.css">
+<link rel="stylesheet" href="stylesheets/css/owl.theme.default.min.css">
+<link rel="stylesheet" href="stylesheets/css/owl.theme.default.min.css">
+<link rel="stylesheet" href="stylesheets/css/jquery.fancybox.min.css">
+<link rel="stylesheet" href="stylesheets/css/bootstrap-datepicker.css">
+<link rel="stylesheet" href="stylesheets/fonts/flaticon/font/flaticon.css">
+<link rel="stylesheet" href="stylesheets/css/aos.css">
+<link href="stylesheets/css/jquery.mb.YTPlayer.min.css" media="all" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="stylesheets/css/style.css">
+</head>
+
+<body>
+<div class="site-wrap">
+<div class="site-mobile-menu site-navbar-target">
+<div class="site-mobile-menu-header">
+<div class="site-mobile-menu-close mt-3">
+<span class="icon-close2 js-menu-toggle"></span>
+</div>
+</div>
+<div class="site-mobile-menu-body"></div>
+</div>   
+<div class="col-6 d-block d-lg-none text-right">
+<img src="images/Untitled-1.png" alt="Image" width="80" class="text-left">
+<a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black">
+<span class="icon-menu h3"></span>
+</a>
+</div>  
+
+<div class="site-navbar site-navbar-target d-none pl-0 d-lg-block" role="banner" style="height: 100px;background: #007bff;">
+<div class="container-fluid" style="padding: 0;">
+<form action="/silver" method="post" enctype="multipart/form-data">
+<div class="d-flex align-items-center">
+<div class="mr-auto">
+<nav class="site-navigation position-relative text-right" role="navigation">
+<ul class="site-menu main-menu js-clone-nav mr-auto d-none pl-0 d-lg-block">
+<li class="active"><a href="/"><img src="images/Untitled-1.png" alt="Image" width="80" ></a></li>
+<li ><a href="/" class="nav-link text-left">Home</a></li>
+<li><a href="3d" class="nav-link text-left">3D-Printing</a></li>
+<li class="dropdown"><a class="dropdown-toggle cwhite" data-toggle="dropdown" href="#">SHOPPING<span class="caret"></span></a>
+<ul class="dropdown-menu" style="padding-left:30px;">
+<li ><a href="magic_frame" style="color:blue;"> MAGIC FRAMES</a></li>
+<li ><a href="printers" style="color:blue;"> 3D PRINTERS</a></li>
+<li class="drop2" style="color:blue;"><a href="filament"> FILAMENTS</a></li>
+</ul>
+</li>
+
+<li><a href="gallery" class="nav-link text-left">Gallery</a></li>
+<li><a href="about" class="nav-link text-left">About Us</a></li>
+<li><a href="contact" class="nav-link text-left">Contact</a>
+</li>
+
+</ul>
+<ul style="position: absolute;top: 10px;right: -95%;list-style: none;">
+<li >
+<a href="https://www.facebook.com/trigidtech/"><i class="fa fa-facebook-square" style="font-size:24px; padding-left:;color: white;"></i></a>
+<a><i class="fa fa-twitter"  style="font-size:24px; color: white;padding-left:10px;"></i></a>
+<a href="https://www.instagram.com/trigid_technologies/"><i class="fa fa-instagram" style="font-size:24px; color: white;padding-left:10px;"></i></a>
+<a><i class="fa fa-youtube-play" style="font-size:24px; color: white;padding-left:10px;"></i></a>
+<a href="https://www.linkedin.com/company/3dclikx"><i class="fa fa-linkedin-square" style="font-size:24px; color: white;padding-left:10px;"></i><a>
+<br><p></p>
+//- <a href ="signup" style="color : white"><center><i class="fa fa-user" style="font-size:24px">  Signup</i></a>
+</center>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container-fluid" style="padding-top:50px;">
+<div class="wrapper animated bounceInLeft">
+<div class="company-info">
+<div class="company">
+<h2 style="color: white">Upload image Here</h2>
+<img src="" id="profile-img-tag" width="100%"  class="img-thumbnail" width="304" height="236"/>
+<div class="row">
+<div class="col-md-6">
+<input type="file" name="image" id="profile-img" accept="image/*" onchange="loadFile(event)" required="">
+</div>
+</div>
+</div>
+</div>
+<div class="contact">
+<h3>Silver MagiFrame</h3>
+<br>
+<p>
+<label>Name</label>
+<input type="text" name="name">
+</p>
+<p>
+<label>Email</label>
+<input type="email" name="email">
+</p>
+<p>
+<label>Phone</label>
+<input type="text" name="phone">
+</p>
+<p>
+<label>Caption</label>
+<input type="text" name="caption">
+</p>
+<p>
+<label>Box Colour</label> 
+<select name="Colour" required="">
+<option  value="Colour" class="Select">Colour</option>
+<option  value="Red">Red</option>
+<option  value="Black">Black</option>
+<option  value="Blue">Blue</option>
+//- <option  value="Skin">Skin</option>
+</select>
+</p>
+<p>
+<label>Stickies</label> 
+<select name="stickies" required="">
+<option  value="stickies" class="Shapes">Colour</option>
+<option  value="Hearts">Hearts</option>
+<option  value="Smilies">Smilies</option>
+//- <option  value="Blue">Blue</option>
+//- <option  value="Skin">Skin</option>
+</select>
+</p>
+<p>
+<label>Stickies Colour</label> 
+<select name="stickiescolour" required="">
+<option  value="stickiescolour" class="Select">Colour</option>
+<option  value="white">White</option>
+<option  value="Gold">Gold</option>
+</select>
+</p>
+<p>
+<label>Product type</label>
+<input value="Silver Magicframe" type="text" name="Producttype">
+</p>
+<p class="full" name="Address">
+<label>Address</label>
+<textarea name="Address" rows="1"></textarea>
+</p>
+<p class="full">
+<button>Submit</button>
+</p>
+</div>
+</form>
+</div>
+</div>
+</div>
+<script src="javascripts/js/jquery-3.3.1.min.js"></script>
+<script src="javascripts/js/popper.min.js"></script>
+<script src="javascripts/js/bootstrap.min.js"></script>
+<script src="javascripts/js/aos.js"></script>
+<script src="javascripts/js/jquery.fancybox.min.js"></script>
+<script src="javascripts/js/main.js"></script>
+<script src="javascripts/js/form.js"></script>
+</body>
+</html>
